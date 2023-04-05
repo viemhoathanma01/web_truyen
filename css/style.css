@@ -1,0 +1,194 @@
+	#div_tong{
+		background: red;
+		width: 100%;
+		height: 2000px;
+	}
+
+	/*div_tren*/
+	#div_tren{
+		background: white;
+		width: 100%;
+		height: 130px;
+		float: bottom;
+	}
+	#div_tren >.trai{
+		background: white;
+		width: 20%;
+		height: 100%;
+		float: left;
+		text-align: center;
+	}
+	#div_tren > .giua{
+		background: white;
+		width: 50%;
+		height: 100%;
+		float: left;
+		text-align: center;
+	}
+	#div_tren > .giua > .tren{
+		background: white;
+		width: 100%;
+		height: 30%;
+		float: bottom;
+	}
+	#div_tren > .giua > .duoi{
+		background: white;
+		width: 100%;
+		height: 70%;
+		float: bottom;
+		text-align: center;
+	}
+	#div_tren > .phai{
+		background: white;
+		width: 30%;
+		height: 100%;
+		float: left;
+		text-align: center;
+	}
+	#div_tren > .phai > .tren{
+		background: white;
+		width: 100%;
+		height: 70%;
+		float: right;
+		text-align: right;
+	}
+	#div_tren > .phai > .duoi{
+		background: white;
+		width: 100%;
+		height: 30%;
+		float: right;
+		text-align: center;
+	}
+
+
+
+
+	/*div_cong_cu*/
+	#div_cong_cu{
+		background: #4bc970;
+		width: 100%;
+		height: 30px;
+		float: bottom;
+	}
+	#div_cong_cu > .trai{
+		background: #4bc970;
+		width: 15%;
+		height: 100%;
+		float: left;
+	}
+	#div_cong_cu > .giua{
+		background: #4bc970;
+		width: 70%;
+		height: 100%;
+		float: left;
+	}
+	#div_cong_cu > .phai{
+		background: #4bc970;
+		width: 15%;
+		height: 100%;
+		float: left;
+	}
+
+
+	/*div_giua*/
+	#div_giua{
+		background: blue;
+		width: 100%;
+		height: 1640px;
+		float: bottom;
+	}
+	#div_giua > .trai{
+		background: #b7ffad;
+		width: 15%;
+		height: 100%;
+		float: left;
+	}
+	#div_giua > .giua{
+		background: white;
+		width: 70%;
+		height: 100%;
+		float: left;
+	}
+	#div_giua > .giua > .div_truyen_de_cu{
+		width: 100%;
+		height: 33%;
+		float: left;
+	}
+	#div_giua > .giua > .div_truyen_cap_nhat{
+		width: 100%;
+		height: 33%;
+		float: left;
+	}
+	#div_giua > .giua > .div_truyen_hot{
+		width: 100%;
+		height: 34%;
+		float: left;
+	}
+	#div_giua > .phai{
+		background: #b7ffad;
+		width: 15%;
+		height: 100%;
+		float: left;
+	}
+
+	/*div_duoi*/
+	#div_duoi{
+		background: #4bc970;
+		width: 100%;
+		height: 200px;
+		float: bottom;
+	}
+
+	/*tìm kiếm*/
+	input[type='text'] {
+		 width: 70%;
+		 padding: 10px;
+		 margin: 5px;
+	}
+	button[type='submit']{
+		width: 80px;
+		height: 38px;
+	}
+
+	/*menu*/
+	ul{
+		list-style-type: none;
+		padding: 0px ;
+		margin: 0px;	
+	}
+	ul > li{	
+		float: left;
+		width: 160px;
+		height: 28px;
+		text-align: center;
+		display: block;
+		padding-bottom: 0;
+		position: relative;
+		/*margin: 5px;*/
+
+		/*border: 1px solid black;
+			border-radius: 10px;*/
+	}
+	ul> li > ul{
+		display: none;
+	}
+	ul > li:hover ul{
+		display: block;
+		position: absolute;
+		background: white;
+		width: 350px;
+		height: 320px;
+		float: left;
+		top: 29px;
+		border: 1px solid black;
+			border-radius: 10px;	
+	}
+	ul > li > ul > li{
+		margin: 5px ;
+		border: none;
+	}
+	a{
+		text-decoration: none;
+		color: black;
+		font-weight: 600;
+	}
